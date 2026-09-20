@@ -4,7 +4,7 @@ set -ouex pipefail
 
 # Copy the contents of system_files/ of the git repo to /
 cp -avf "/ctx/system_files"/. /
-cp -avf /lenovo/bin/. /lib/firmware/
+cp -avf "ctx/lenovo/bin/". /lib/firmware/
 
 ### Install packages
 

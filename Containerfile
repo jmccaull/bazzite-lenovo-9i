@@ -2,6 +2,7 @@
 FROM scratch AS ctx
 COPY build_files /
 COPY system_files /system_files
+COPY lenovo /lenovo
 
 # Base Image
 FROM ghcr.io/ublue-os/bazzite-dx-nvidia:stable
